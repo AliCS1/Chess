@@ -62,60 +62,60 @@ class Pieces:
         self.LoadPiece()
     def LoadPiece(self):
         if self.PieceTypeLoader == "WRook":
-            self.Piece = pygame.image.load('UpdatedPieces\WRook.png')
+            self.Piece = pygame.image.load('Pieces\WRook.png')
             self.Color = "White"
             self.PieceType = "Rook"
             self.rules = [[(0,1),(0,2),(0,3),(0,4),(0,5),(0,6),(0,7)],[(1,0),(2,0),(3,0),(4,0),(5,0),(6,0),(7,0)],[(0,-1),(0,-2),(0,-3),(0,-4),(0,-5),(0,-6),(0,-7)],[(-1,0),(-2,0),(-3,0),(-4,0),(-5,0),(-6,0),(-7,0)]]
         elif self.PieceTypeLoader == "WQueen":
-            self.Piece = pygame.image.load('UpdatedPieces\WQueen.png')
+            self.Piece = pygame.image.load('Pieces\WQueen.png')
             self.Color = "White"
             self.PieceType = "Queen"
             self.rules = [[(0,1),(0,2),(0,3),(0,4),(0,5),(0,6),(0,7)],[(1,0),(2,0),(3,0),(4,0),(5,0),(6,0),(7,0)],[(0,-1),(0,-2),(0,-3),(0,-4),(0,-5),(0,-6),(0,-7)],[(-1,0),(-2,0),(-3,0),(-4,0),(-5,0),(-6,0),(-7,0)],[(1,1),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7)],[(1,-1),(2,-2),(3,-3),(4,-4),(5,-5),(6,-6),(7,-7)],[(-1,-1),(-2,-2),(-3,-3),(-4,-4),(-5,-5),(-6,-6),(-7,-7)],[(-1,1),(-2,2),(-3,3),(-4,4),(-5,5),(-6,6),(-7,7)]]
         elif self.PieceTypeLoader == "WPawn":
-            self.Piece = pygame.image.load('UpdatedPieces\WPawn.png')
+            self.Piece = pygame.image.load('Pieces\WPawn.png')
             self.Color = "White"
             self.PieceType = "Pawn"
         elif self.PieceTypeLoader == "WKing":
-            self.Piece = pygame.image.load('UpdatedPieces\WKing.png')
+            self.Piece = pygame.image.load('Pieces\WKing.png')
             self.Color = "White"
             self.PieceType = "King"
             self.rules = [(0,1),(1,0),(0,-1),(-1,0),(1,1),(1,-1),(-1,-1),(-1,1)]
         elif self.PieceTypeLoader == "WHorse":
-            self.Piece = pygame.image.load('UpdatedPieces\WHorse.png')
+            self.Piece = pygame.image.load('Pieces\WHorse.png')
             self.Color = "White"
             self.PieceType = "Horse"
             self.rules = [(1,2),(2,1),(2,-1),(1,-2),(-1,-2),(-2,-1),(-2,1),(-1,2)]
         elif self.PieceTypeLoader == "WBishop":
-            self.Piece = pygame.image.load('UpdatedPieces\WBishop.png')
+            self.Piece = pygame.image.load('Pieces\WBishop.png')
             self.Color = "White"
             self.PieceType = "Bishop"
             self.rules = [[(1,1),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7)],[(1,-1),(2,-2),(3,-3),(4,-4),(5,-5),(6,-6),(7,-7)],[(-1,-1),(-2,-2),(-3,-3),(-4,-4),(-5,-5),(-6,-6),(-7,-7)],[(-1,1),(-2,2),(-3,3),(-4,4),(-5,5),(-6,6),(-7,7)]]
         elif self.PieceTypeLoader == "BRook":
-            self.Piece = pygame.image.load('UpdatedPieces\BRook.png')
+            self.Piece = pygame.image.load('Pieces\BRook.png')
             self.Color = "Black"
             self.PieceType = "Rook"
             self.rules = [[(0,1),(0,2),(0,3),(0,4),(0,5),(0,6),(0,7)],[(1,0),(2,0),(3,0),(4,0),(5,0),(6,0),(7,0)],[(0,-1),(0,-2),(0,-3),(0,-4),(0,-5),(0,-6),(0,-7)],[(-1,0),(-2,0),(-3,0),(-4,0),(-5,0),(-6,0),(-7,0)]]
         elif self.PieceTypeLoader == "BQueen":
-            self.Piece = pygame.image.load('UpdatedPieces\BQueen.png')
+            self.Piece = pygame.image.load('Pieces\BQueen.png')
             self.Color = "Black"
             self.PieceType = "Queen"
             self.rules = [[(0,1),(0,2),(0,3),(0,4),(0,5),(0,6),(0,7)],[(1,0),(2,0),(3,0),(4,0),(5,0),(6,0),(7,0)],[(0,-1),(0,-2),(0,-3),(0,-4),(0,-5),(0,-6),(0,-7)],[(-1,0),(-2,0),(-3,0),(-4,0),(-5,0),(-6,0),(-7,0)],[(1,1),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7)],[(1,-1),(2,-2),(3,-3),(4,-4),(5,-5),(6,-6),(7,-7)],[(-1,-1),(-2,-2),(-3,-3),(-4,-4),(-5,-5),(-6,-6),(-7,-7)],[(-1,1),(-2,2),(-3,3),(-4,4),(-5,5),(-6,6),(-7,7)]]
         elif self.PieceTypeLoader == "BPawn":
-            self.Piece = pygame.image.load('UpdatedPieces\BPawn.png')
+            self.Piece = pygame.image.load('Pieces\BPawn.png')
             self.Color = "Black"
             self.PieceType = "Pawn"
         elif self.PieceTypeLoader == "BKing":
-            self.Piece = pygame.image.load('UpdatedPieces\BKing.png')
+            self.Piece = pygame.image.load('Pieces\BKing.png')
             self.Color = "Black"
             self.PieceType = "King"
             self.rules = [(0,1),(1,0),(0,-1),(-1,0),(1,1),(1,-1),(-1,-1),(-1,1)]
         elif self.PieceTypeLoader == "BHorse":
-            self.Piece = pygame.image.load('UpdatedPieces\BHorse.png')
+            self.Piece = pygame.image.load('Pieces\BHorse.png')
             self.Color = "Black"
             self.PieceType = "Horse"
             self.rules = [(1,2),(2,1),(2,-1),(1,-2),(-1,-2),(-2,-1),(-2,1),(-1,2)]
         elif self.PieceTypeLoader == "BBishop":
-            self.Piece = pygame.image.load('UpdatedPieces\BBishop.png')
+            self.Piece = pygame.image.load('Pieces\BBishop.png')
             self.Color = "Black"
             self.PieceType = "Bishop"
             self.rules = [[(1,1),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7)],[(1,-1),(2,-2),(3,-3),(4,-4),(5,-5),(6,-6),(7,-7)],[(-1,-1),(-2,-2),(-3,-3),(-4,-4),(-5,-5),(-6,-6),(-7,-7)],[(-1,1),(-2,2),(-3,3),(-4,4),(-5,5),(-6,6),(-7,7)]]

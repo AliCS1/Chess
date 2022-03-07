@@ -1,6 +1,8 @@
 # Chess
 This is my attempt at a Chess game using Python and Pygame. 
 
+REQUIRES THE LIBRARY PYGAME TO RUN
+
 To play the game, download and open the file.
 
 The colors of the board, background and the images were taken from Chess.com through inspect element, aside from that, all the python code was written by me, Ali.
